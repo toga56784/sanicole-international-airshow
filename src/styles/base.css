@@ -1,0 +1,62 @@
+/*
+base.css 
+============
+Resets all styles
+*/
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-accent: #0077ff;
+  --radius: 8px;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --max-width: 1100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}

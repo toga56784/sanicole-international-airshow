@@ -1,0 +1,20 @@
+body {
+    background-image: url("/public/assets/imgs/image-1.webp");
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;      
+    width: 100%;
+    min-height: 100vh;           
+    box-sizing: border-box;
+}
+
+button {
+    width: 40vw;
+    height: 20vh;
+    font-size: 5vh;
+    border-radius: 10px;
+}
